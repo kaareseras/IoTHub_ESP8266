@@ -1,7 +1,7 @@
 //Edit this file to match your setup
 
 // Physical device information for board and sensor
-#define DEVICE_ID "test2"
+#define DEVICE_ID "myDeviceID"
 
 //Change DHT type between DHT11 and DHT22
 #define DHT_TYPE DHT11
@@ -16,4 +16,4 @@
 #define INTERVAL 2000
 
 // If don't have a physical DHT sensor, can send simulated data to IoT hub
-#define SIMULATED_DATA true
+#define SIMULATED_DATA false //<--- Change <false> to <true> for a simulated sensor 
